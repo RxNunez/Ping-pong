@@ -9,10 +9,14 @@ $(document).ready(function() {
     }
   // Business Logic
    for(var i = 1; i <= count; i++){
-//         alert("i")
-//     // result.push(i);
-//
-//       }
-//       }
+     if(i%3 === 0){
+     result.push("ping");
+   }
+    // else if(i%5 === 0){
+    //   result.push("ping");
+    // }
+
   });
 });
+
+// += "<li>ping</li>"
