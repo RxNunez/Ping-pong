@@ -12,17 +12,17 @@ _{The site was developed to create an application that would substitute every nu
 _Specs from PingPong
 
 *It will count to a provided number.
-  Input Example: 1
-  Output Example: 1,2
+  *Input Example: 2
+  *Output Example: [1,2]
 *It will substitute a number divisible by 3 with "ping".
-  Input Example: 6
-  Output Example: "ping"
+  *Input Example: 3
+  *Output Example: [1,2,"ping"]
 *It will substitute a number divisible by 5 with "pong".
-  Input Example: 10
-  Output Example: "pong"
+  *Input Example: 5
+  *Output Example: [1,2,"ping",4,"pong"]
 *It will substitute a number divisible by 15 with "ping-pong".
-  Input Example: 6
-  Output Example: "ping-pong"  
+  *Input Example: 15
+  *Output Example: [1,2,"ping",4,"pong","ping",7,8,"ping","pong",11,"ping",13,14,"ping-pong"]  
 
 ## Setup/Installation Requirements
 
