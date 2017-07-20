@@ -20,7 +20,7 @@ _Specs from PingPong
 *It will substitute a number divisible by 5 with "pong".
   *Input Example: 5
   *Output Example: [1,2,"ping",4,"pong"]
-*It will substitute a number divisible by 15 with "ping-pong".
+*It will substitute a number divisible by 15 with  "ping-pong".
   *Input Example: 15
   *Output Example: [1,2,"ping",4,"pong","ping",7,8,"ping","pong",11,"ping",13,14,"ping-pong"]  
 
