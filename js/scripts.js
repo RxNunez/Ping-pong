@@ -20,7 +20,8 @@ $(document).ready(function(){
   };
   // Front-end logic
   $("form#pingpong").submit(function(event){
-    event.preventDefault();
+    $("#result").empty();
+      event.preventDefault();
     var count = parseInt($("input#number").val());
       if (isNaN(count)) {
         alert("Enter a number, Please!");
